@@ -1,0 +1,53 @@
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.shopcategory-indexSort {
+    display: flex;
+    margin: 0px 170px;
+    /* Corrected the margin */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+/* Corrected styling for the span inside p tag */
+.shopcategory-indexSort p {
+    margin: 0;
+    /* Adjusted to ensure proper alignment */
+}
+
+.shopcategory-indexSort p span {
+    margin: 0;
+    /* Ensure it doesn't add unintended margin */
+}
+
+/* If you are expecting a grid layout for a different part */
+.shopcategory-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Adjust grid columns */
+    gap: 20px;
+    /* Space between items */
+}
+
+.shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
